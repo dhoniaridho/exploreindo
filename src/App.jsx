@@ -31,6 +31,16 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="bg-black">
+        <div>
+          <img src="https://i.ibb.co/LdtctMt/holiday.png" alt="" />
+        </div>
+        <div>
+          <h1>EAST nUSA TENGGARA</h1>
+          <h1>Have you enjoyed your holiday?</h1>
+          <p>You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+        </div>
+      </section>
     </MainLayout>
   )
 }
