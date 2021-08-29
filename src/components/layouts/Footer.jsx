@@ -3,26 +3,26 @@ import * as Fa from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="px-20 bg-black text-white">
-      <div className="flex justify-between">
+    <footer className="px-5  md:px-20 bg-black text-white">
+      <div className="flex flex-col md:flex-row justify-between">
         <div>
           <h1 className="text-4xl font-bold">QWERy</h1>
         </div>
-        <div>
-          <a href="#">Ready to explore?</a>
+        <div className="flex flex-col md:flex-row">
+          <a className="mt-3" href="#">Ready to explore?</a>
           <a
-            className="py-3 px-5 bg-yellow-300 text-black rounded-sm mx-4 font-semibold"
+            className="py-3 px-5 mt-4 bg-yellow-300 text-black rounded-sm md:mx-4 font-semibold"
             href="#"
           >
             Get started
           </a>
         </div>
       </div>
-      <div className="flex my-28">
-        <div className="w-1/4 p-3">
+      <div className="flex flex-col md:flex-row my-28">
+        <div className="md:w-1/4 p-3">
           <h1 className="text-3xl font-bold">Let's go on vacation, Make your day</h1>
         </div>
-        <div className="w-1/4 flex justify-center flex-col p-3">
+        <div className="md:w-1/4 flex justify-center flex-col p-3">
           <h1 className="font-bold text-yellow-300">Services</h1>
           <ul className="mt-1">
             <li className="my-2">Campaigns</li>
@@ -31,7 +31,7 @@ export default function Footer() {
             <li className="my-2">Branding</li>
           </ul>
         </div>
-        <div className="w-1/4 flex justify-center flex-col p-3">
+        <div className="md:w-1/4 flex justify-center flex-col p-3">
           <h1 className="font-bold text-yellow-300">About</h1>
           <ul className="mt-1">
             <li className="my-2">Campaigns</li>
@@ -40,7 +40,7 @@ export default function Footer() {
             <li className="my-2">Branding</li>
           </ul>
         </div>
-        <div className="w-1/4 flex justify-center flex-col p-3">
+        <div className="md:w-1/4 flex justify-center flex-col p-3">
           <h1 className="font-bold text-yellow-300">Help</h1>
           <ul className="mt-1">
             <li className="my-2">Campaigns</li>
@@ -50,7 +50,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex justify-between place-items-center my-20">
+      <div className="flex justify-between place-items-center flex-col md:flex-row my-20">
         <div>
           <a className="mx-2" href="#">
             Terms & Conditions
@@ -60,7 +60,7 @@ export default function Footer() {
           </a>
         </div>
         <div>
-          <ul className="flex mx-2 text-2xl">
+          <ul className="flex mx-2 text-2xl mt-5">
             <li className="mx-2">
               <Fa.FaFacebook />
             </li>

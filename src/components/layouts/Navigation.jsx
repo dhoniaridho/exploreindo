@@ -23,8 +23,8 @@ export default function Navigation() {
         <header>
             <nav className={`text-white`}>
                 <div className={`h-16 w-full px-10 flex justify-between place-items-center fixed transition-all z-50 top-0 ${isScrolled ? 'backdrop-blur-lg bg-black bg-opacity-25' : 'bg-transparent'} `}>
-                    <h1 className="w-1/3 text-2xl font-bold">Explore Indo</h1>
-                    <ul className="w-1/3 flex justify-center">
+                    <h1 className="md:w-1/3 text-2xl font-bold">Explore Indo</h1>
+                    <ul className="hidden md:flex w-1/3 justify-center">
                         <li className="mx-1">Information</li>
                         <li className="mx-1">About Us</li>
                         <li className="mx-1">Culture</li>

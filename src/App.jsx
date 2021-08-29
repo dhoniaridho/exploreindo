@@ -7,16 +7,16 @@ function App() {
     <MainLayout>
       <section className="w-full relative z-10">
         <img
-          className="w-full h-screen z-0"
+          className="w-full object-cover h-screen z-0"
           src="https://i.ibb.co/W2C4qqP/hero.png"
           alt=""
         />
         <div className="flex justify-center place-items-center h-[calc(100vh-4rem)] absolute top-32 inset-x-0 text-white">
-          <div className="pt-20 text-6xl -mt-80 tracking-wide">
+          <div className="pt-20 text-3xl md:text-6xl -mt-80 tracking-wide text-center">
             <h1 className="font-bold">Discover</h1>
             <h1 className="font-light">Wonderful Indonesia</h1>
           </div>
-          <div className="-rotate-90 origin-center absolute -left-9 top-1/4 flex justify-center place-items-center">
+          <div className="hidden md:flex-rotate-90 origin-center absolute -left-9 top-1/4 justify-center place-items-center">
             <h4>Follow Us</h4>
             <ul className="flex mx-2">
               <li className="mx-2">
@@ -32,11 +32,11 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="bg-black text-white min-h-screen flex justify-between place-items-center px-20 py-20">
-        <div className="w-1/2 p-5">
+      <section className="bg-black text-white min-h-screen flex justify-between flex-col md:flex-row place-items-center px-5 md:px-20 py-20">
+        <div className="md:w-1/2 p-5">
           <img src="https://i.ibb.co/LdtctMt/holiday.png" alt="" />
         </div>
-        <div className="w-1/2 p-5">
+        <div className="md:w-1/2 p-5">
           <h1 className="text-xl font-bold text-yellow-300 uppercase">
             EAST nUSA TENGGARA
           </h1>
@@ -57,15 +57,15 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="bg-black text-white min-h-screen px-20 py-10 relative">
+      <section className="bg-black text-white min-h-screen px-5 md:px-20 py-10 relative">
         <img
           className="w-full"
           src="https://i.ibb.co/TK3CPY8/bromo.png"
           alt=""
         />
-        <div className="-mt-72">
+        <div className="mt-5 md:-mt-72">
           <div className="w-full flex justify-center text-center flex-col">
-            <h1 className="text-4xl font-bold w-1/2 mx-auto">
+            <h1 className="text-4xl font-bold md:w-1/2 mx-auto">
               Steady your steps, we will climb together!
             </h1>
             <p className="mt-6 w-3/4 mx-auto font-semibold">
@@ -83,8 +83,8 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="bg-black text-white min-h-screen flex justify-between place-items-center px-20 py-32">
-        <div className="w-1/2 p-5">
+      <section className="bg-black text-white min-h-screen flex flex-col md:flex-row justify-between place-items-center md:px-20 py-32">
+        <div className="md:w-1/2 p-5">
           <h1 className="text-xl font-bold text-yellow-300 uppercase">
             INDONESIAN CULTURE
           </h1>
@@ -102,9 +102,9 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="w-1/2 p-5">
+        <div className="md:w-1/2 p-5">
           <img
-            className="w-3/4 mx-auto"
+            className="md:w-3/4 mx-auto"
             src="https://i.ibb.co/bbM8qML/01.png"
             alt=""
           />
